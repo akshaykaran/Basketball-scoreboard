@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    background-image: url('https://img.freepik.com/premium-vector/basketball-ball-wooden-background-vector-illustration_64749-4313.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: #1B244A;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: 575px;
+    height: 385px;
+    margin-left: 30%;
+    margin-top: 7%;
+    background: #1B244A;
+}
+
+.home{
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 80px;
+    /* top: 68px; */
+    color: #eee;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.guest{
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    left: 335px;
+    /* top: 68px; */
+    color: #eee;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.score-board{
+    color: #F94F6D;
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 80px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+.score-board2{
+    color: #F94F6D;
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    right: 80px;
+    top: 125px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+.home-points-text{
+    font-family: Cursed Timer ULiL, sans-serif;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.btn{
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    color: #9AABD8;
+    background-color: transparent;
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px; 
+}
+
+.btn1{
+    /* opacity: 0.3; */
+    left: 82px;
+}
+.btn2{
+    left: 136px;
+}
+.btn3{
+    left: 192px;
+}
+.btn4{
+    left: 337px;
+}
+.btn5{
+    left: 391px;
+}
+.btn6{
+    left: 447px;
+}
+
+
+
